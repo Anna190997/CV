@@ -1,0 +1,124 @@
+@font-face {
+  font-family: Roboto-Regular, sans-serif;
+  src: url("../fonts/Roboto-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: Roboto-Medium, sans-serif;
+  src: url("../fonts/Roboto-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: Roboto-Bold, sans-serif;
+  src: url("../fonts/Roboto-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: Roboto-Light, sans-serif;
+  src: url("../fonts/Roboto-Light.woff") format("woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: 104px;
+  padding-right: 106px;
+}
+header {
+  margin-top: 40px;
+}
+.header_list {
+  display: flex;
+  justify-content: space-between;
+}
+.header_list_items {
+  display: inline;
+}
+.header_link {
+  text-decoration: none;
+  font-family: Roboto-Medium, sans-serif;
+  font-size: 24px;
+  color: #120d0e;
+}
+.header_link:hover {
+  text-decoration: line-through;
+}
+.header_link:active {
+  text-decoration: line-through;
+}
+hr {
+  margin-top: 40px;
+  border: 1px solid #3d3b3c;
+}
+.about {
+  margin-top: 72px;
+  display: flex;
+  flex-direction: column;
+}
+.about_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.name {
+  font-family: Roboto-Medium, sans-serif;
+  font-size: 56px;
+  color: #120d0e;
+  padding-bottom: 8px;
+}
+.profession {
+  font-family: Roboto-Medium, sans-serif;
+  font-size: 56px;
+  color: #bebebe;
+  padding-bottom: 40px;
+}
+.about_text_items {
+  font-family: Roboto-Regular, sans-serif;
+  font-size: 22px;
+  color: #3d3b3c;
+}
+.about_button {
+  margin-top: 72px;
+}
+.button {
+  background-color: #3a4576;
+  width: 185px;
+  height: 56px;
+  color: #ffffff;
+  border: none;
+  font-family: Roboto-Medium, sans-serif;
+  font-size: 24px;
+  margin-right: 24px;
+  margin-bottom: 72px;
+  cursor: pointer;
+}
+.photo {
+  width: 480px;
+  height: 460px;
+}
+.skills{
+  width: 100%;
+  background-color: #FAFAFA;
+}
+.title{
+  padding-top: 72px;
+  text-align: center;
+  font-family: Roboto-Medium, sans-serif;
+  font-size: 56px;
+  color: #120D0E;
+}
+.skills_wrapper{
+  display: flex;
+  flex-direction: column;
+  padding-top: 56px;
+}
+.skills_items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.skills_text{
+  text-align: center;
+}
